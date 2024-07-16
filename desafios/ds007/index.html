@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando imagens de forma dinamica só com HTML5</title>
+</head>
+<body>
+    <h1>Manipulando a imagem do Alucard</h1>
+    <p>Teste de manipulação da imagen da magia do Alucard de Hellsing em diferentes formatos de tamanho, além de tentar manipular no telefone.</p>
+    <picture>
+        <source media="(max-width: 650px )" srcset="imagens/Alucard-200.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/Alucard-600.png" type="image/png">
+        <img src="imagens/Alucard-1000.png" alt="Alucard flexível">
+    </picture>
+</body>
+</html>
